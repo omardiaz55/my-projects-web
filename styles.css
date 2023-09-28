@@ -1,6 +1,6 @@
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .hero, footer {
   background-color:#1F2937;
@@ -87,7 +87,7 @@ figcaption {
 .quote h1 {
   font-size: 36px;
   font-style:italic;
-  font-weight:50;
+  font-weight:lighter;
   color: #1f2137;
 }
 .quote h3 {
@@ -97,11 +97,10 @@ figcaption {
 }
 .nav, ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   gap: 25px;
-  padding-left:150px;
-  padding-right:80px;
+  
   list-style-type: none;
 }
 .hero-section {
